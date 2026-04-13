@@ -1,0 +1,21 @@
+$red:red;
+$background-color:aqua;
+body{
+    background-color: $background-color;
+    h1{
+        color:red;
+    }
+    header{
+        h1{
+            color:blue;
+        }
+    }
+    header{
+        h1{
+            color:$red;
+        }
+        p{
+            color:red;
+        }
+    }
+}

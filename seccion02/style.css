@@ -5,13 +5,18 @@ body {
 
 /* HEADER */
 header {
-    background: #1b5e20;
+    background: #1d271d;
     color: white;
     padding: 0px;
     padding-bottom: 0px;
 
     display: flex;
     justify-content: space-between;
+}
+.logo{
+    width: 5%;
+    height: 5%;
+        
 }
 
 header h1{
