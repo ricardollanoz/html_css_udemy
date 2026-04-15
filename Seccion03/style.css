@@ -1,0 +1,34 @@
+*{
+    margin:0
+}
+header{
+    background-color: rgb(11, 11, 250);
+    width: 100%;
+    height: 100px;
+}
+main{
+    display: grid;
+    border:solid;
+    height: 700px
+}
+main section{
+    background-color: rgb(11, 250, 35);
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-column: 3;
+    border: solid;
+}
+aside{
+    background-color: rgb(151, 162, 152);
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-column: 2;
+    border:solid
+}
+footer{
+    background-color: rgb(185, 62, 183);
+    width: 100%;
+    height: 300px;
+}

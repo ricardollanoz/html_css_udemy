@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial;
+    background-color: rgb(213, 213, 212);
 }
 
 /* HEADER */
@@ -31,7 +32,6 @@ header nav div{
 .nav-links {
   display: flex;
   list-style-type: none;
-                   /* Espacio entre Inicio, Explora y Normas */
   margin: 0;
   padding: 0;
   
@@ -68,14 +68,13 @@ li a:hover{
 
 
 .imgpark{
-    width: 100%;      /* 100% del ancho de la ventana */
-  height: 50vh;     /* 100% del alto de la ventana */
-  /* Evita que la imagen se estire o se vea flaca */
+    width: 100%;      
+  height: 50vh;     
     position: absolute;
     filter:brightness(70%)
 
 }
-.overlay {
+.division {
     color: white;
     justify-content: center;
     align-items: center;
@@ -85,9 +84,11 @@ li a:hover{
     padding-top: 100px;
 }
 
+
+
 /* CONTENEDOR */
 .contenedor {
-    padding: 0px;
+    padding: 10px;
 }
 
 /* FILAS */
@@ -99,18 +100,74 @@ li a:hover{
 
 /* INFO */
 .info {
-    flex: 1;
+    flex: 0.5;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    
+    
+}
+
+.separador{
+    padding-top: 20%;
+}
+.info h3{
+    font-size:xx-large;
+    color:#2e3d2f;
+    text-align: center;
+    background-color: #89a58b;
+    border-radius: 10px;
+    width: 100%;
+}
+.info p{
+    font-size: larger;
 }
 
 .mapa {
-    background: #ddd;
-    height: 150px;
+    background: #ffffff;
     margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(213, 213, 212);
+
+}
+
+
+.horario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.calendario{
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.horario p{
+    display: flex;
+    justify-content: flex-start;
+    color:#2e3d2f
+}
+.mapa h4{
+    padding: 0px;
+}
+
+.ubicacion{
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 
 /* GALERÍA */
 .galeria {
-    flex: 1;
+    flex: 0.6;
 }
 
 .galeria img {
@@ -127,6 +184,8 @@ li a:hover{
 .mini img {
     width: 50%;
 }
+    
+
 
 /* NORMAS */
 .normas {
@@ -144,7 +203,7 @@ li a:hover{
 
 .card {
     flex: 1 1 200px;
-    background: #66bb6a;
+    background: #436645;
     padding: 20px;
     border-radius: 20px;
     color: white;
@@ -152,8 +211,19 @@ li a:hover{
 
 /* FOOTER */
 footer {
-    background: #1b5e20;
+    background-color: #2e3d2f;
     color: white;
-    text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.redesposition{
+    display: flex;
+    margin-left: 5%;
+    gap: 30px;
+}
+.redes{
+    width: 40px;
+    height: 40px;
 }
