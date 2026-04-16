@@ -75,11 +75,11 @@ li a:hover{
 
 }
 .division {
-    color: white;
+    color: rgba(255, 255, 255, 0.829);
     justify-content: center;
     align-items: center;
     position:relative;  
-    font-size: larger;
+    font-size:xx-large;
     filter: brightness(90%);
     padding-top: 100px;
 }
@@ -114,8 +114,8 @@ li a:hover{
 .info h3{
     font-size:xx-large;
     color:#2e3d2f;
-    text-align: center;
     background-color: #89a58b;
+    text-align: center;
     border-radius: 10px;
     width: 100%;
 }
@@ -124,21 +124,32 @@ li a:hover{
 }
 
 .mapa {
-    background: #ffffff;
-    margin-top: 10px;
-    display: flex;
-    flex-direction:column;
+     display: flex;
+    flex-direction: row;
     align-items: center;
-    padding: 50px;
-    background-color: rgb(213, 213, 212);
+    justify-content: center;
+    gap: 10px;
+    font-size: larger;
+    color:#2e3d2f;
+    background-color: #89a58b;
+    border-radius: 10px;
+    width: 100%;
 
 }
 
 
-.horario{
+.horario-titulo-logo{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: larger;
+    color:#2e3d2f;
+    background-color: #89a58b;
+    border-radius: 10px;
+    width: 100%;
+    
     
 }
 
@@ -162,6 +173,15 @@ li a:hover{
     display: flex;
     flex-direction: column;
     
+    
+}
+
+
+
+iframe{
+    
+    border-radius: 10px;
+    margin-top: 100px;
     
 }
 
@@ -191,7 +211,7 @@ li a:hover{
 .normas {
     background: #e8f5e9;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 .grid {
