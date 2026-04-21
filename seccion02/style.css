@@ -247,3 +247,21 @@ footer {
     width: 40px;
     height: 40px;
 }
+
+#button-menu{
+    display: none;
+}
+
+@media (max-width:480px){
+    #button-menu{
+    display: block;
+    }
+    ul.nav-links{
+        display: none;
+
+    }
+    ul.nav-links.active{
+        display: block!important;
+
+    }
+    

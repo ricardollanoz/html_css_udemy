@@ -1,26 +1,39 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=º, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="style.css">
     </head>
-    <header>
-        header
-    </header>
-    <main>
-        <section>
-            lado izquierdodd
-            <aside>
-                lado derecho
-            </aside>
-        </section>
-    </main>
-    <footer>
-        footer
-    </footer>
     <body>
-        
+    <section class="gallery">
+    <!-- Imagen principal -->
+        <article class="gallery__item gallery__item--full">
+            <picture>
+                <!-- Imagen para pantallas grandes -->
+                <source srcset="img1-desktop.jpg" media="(min-width: 1024px)">
+                <!-- Imagen para tablets -->
+                <source srcset="img1-tablet.jpg" media="(min-width: 768px)">
+                <!-- Imagen por defecto (mobile) -->
+                <img src="img1-mobile.jpg" alt="Imagen principal">
+            </picture>
+        </article>
+        <!-- Imagen secundaria 1 -->
+        <article class="gallery__item">
+            <picture>
+                <source srcset="img2-desktop.jpg" media="(min-width: 1024px)">
+                <source srcset="img2-tablet.jpg" media="(min-width: 768px)">
+                <img src="img2-mobile.jpg" alt="Imagen secundaria 1">
+            </picture>
+        </article>
+            <!-- Imagen secundaria 2 -->
+        <article class="gallery__item">
+            <picture>
+                <source srcset="img3-desktop.jpg" media="(min-width: 1024px)">
+                <source srcset="img3-tablet.jpg" media="(min-width: 768px)">
+                <img src="img3-mobile.jpg" alt="Imagen secundaria 2">
+            </picture>
+        </article>
+    </section>
     </body>
 </html>
